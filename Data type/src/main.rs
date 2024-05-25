@@ -21,6 +21,12 @@ fn main() {
     println!("integer unsigned max {}", nu8_min);
     println!("integer unsigned max {}", nu8_max);
     
-    let f1 = 3.402823E-38;
-    println!("{}", f1);
+    let c = '♠';
+    let c1:char = 'A';
+
+    println!("{}", c);
+    println!("{}", c1);
+
+
+    
 }

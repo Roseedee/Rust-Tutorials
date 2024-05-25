@@ -46,9 +46,9 @@ Each unsigned variant can store numbers is 0 to ``` (2^nbit)-1 ```
 
 - **how to use**
 ```
-    let n = 10;         //default is i32 can store numbers -2147483648 to 2147483647
-    let ni1:i8 = 10;    //range numbers -128 to 127    
-    let nu1:u8 = 10;    //range numbers 0 to 255
+    let n = 10;         // default is i32 can store numbers -2147483648 to 2147483647
+    let ni1:i8 = 10;    // range numbers -128 to 127    
+    let nu1:u8 = 10;    // range numbers 0 to 255
 ```
 
 - **Integer overflow**
@@ -56,17 +56,28 @@ Each unsigned variant can store numbers is 0 to ``` (2^nbit)-1 ```
     let n_max = 255;
 
     //can't run
-    let n_maxo1 = 256; //overflow 0
-    let n_maxo2 = 257; //overflow 1
+    let n_maxo1 = 256; // overflow 0
+    let n_maxo2 = 257; // overflow 1
 ```
 #### Floating Point
 classified as f32 and f64
 **how to use**
 ```
-    let f = 6000.57     //default is f64
-    let f1:f32 = 3.14
+    let f = 6000.57;     // default is f64
+    let f1:f32 = 3.14;
 ```
 
+#### Boolean
+Boolean types has two possible values are true or false
+```
+    let b = true;        // boolean
+    let b1:bool = true;
+```
+#### Character
+Character supports numbers, alphabets, Unicode and special characters
+```
+    let c = U+E000;
+```
 
 
 
