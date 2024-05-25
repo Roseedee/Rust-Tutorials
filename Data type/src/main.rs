@@ -9,5 +9,5 @@ fn main() {
     println!("{}", floating);   //prints 3.14
     println!("{}", boolean);    //prints true
     println!("{}", string);     //prints String
-    println!("{}", character);  //prints ♀
+    println!("{}", character);  //prints ♀ 
 }
