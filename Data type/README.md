@@ -76,7 +76,7 @@ Boolean types has two possible values are true or false
 #### Character
 Character supports numbers, alphabets, Unicode and special characters
 ```
-    let c = U+E000;
+    let c = 'C';
 ```
 
 
