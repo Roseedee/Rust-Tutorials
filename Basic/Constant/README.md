@@ -1,5 +1,5 @@
 # Constant
-variable name could upper case
+variable name must be uppercase
 > ### Syntax
 ```
     // const VARIABLE_NAME = value;
