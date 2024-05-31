@@ -1,18 +1,3 @@
-# Get Started
-basic systax of rust language
-
-> ### Language structure
-```
-fn main() {
-    //your code
-}
-```
-> ### println! Syntax
- ```
-    println!();                         //prints new line
-    println!("Hello world!");           //prints Hello world!
-    println!("Name : {}", "Roseedee");  //prints Name : Roseedee
-```
 # Data type
 In Rust, variable types are automatically inferred by the compiler based on the value stored in the variable
 
@@ -100,60 +85,4 @@ exp: 1,000 can written 1_000
 ```
     let money = 1_000;
     println!("money is : {}", money);
-```
-
-# Variables
-
-> ### Syntax
-```
-    let variable_name = value;          //no type specified
-    let variable_name:datetype = value  //type specified
-```
-
-> ### Immutable
-In Rust default variable are immutable or read only
-```
-    let age = 10;
-    // age = 11; Error : you cannot assign values twice to immutable variable
-```
-
-> ### Mutable
-use mut keywork before variable name for make it mutable
-```
-    let mut age = 10;
-    println!("{}", age);
-    age = 11;
-    println!("{}", age);
-```
-
-
-# Constant
-
-> ### Syntax
-```
-    // const variable_name = value;
-    // const variable_name:datatype = value;
-    const PI = 3.14;
-    println!("Value PI is : {}", PI);
-``` 
-
-> ### Shadowsing Variable
-```
-    let n = 10;
-    let n = 20;
-    println!("{}", n);
-```
-output : 20
-
-```
-    let name = "Roseedee"
-    let name = name.len();
-    println!("{}", name)
-```
-Output: 8
-```
-   const name:&str = "Roseedee";
-   const name:usize = name.len(); 
-   //Error : `name` already defined
-   println!("name changed to integer : {}",name);
 ```

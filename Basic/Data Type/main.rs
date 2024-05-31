@@ -29,17 +29,4 @@ fn main() {
 
     let money = 1_000;
     println!("money is : {}", money);
-
-    let n = 10;
-    // n = 20; //error
-    println!("{}", n);
-
-    let mut mutable = 10;
-    println!("{}", mutable);
-    mutable = 11;
-    println!("{}", mutable);
-
-    let name = "Roseedee";
-    let name = name.len();
-    println!("{}", name);
 }
