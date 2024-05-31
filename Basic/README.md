@@ -1,3 +1,18 @@
+# Get Started
+basic systax of rust language
+
+### Language structure
+```
+fn main() {
+    //your code
+}
+```
+### println! Syntax
+ ```
+    println!();                         //prints new line
+    println!("Hello world!");           //prints Hello world!
+    println!("Name : {}", "Roseedee");  //prints Name : Roseedee
+```
 # Data type
 In Rust, variable types are automatically inferred by the compiler based on the value stored in the variable
 
@@ -78,11 +93,3 @@ Character supports numbers, alphabets, Unicode and special characters
 ```
     let c = 'C';
 ```
-
-
-
-
-
-
-
-
