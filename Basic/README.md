@@ -1,13 +1,13 @@
 # Get Started
 basic systax of rust language
 
-### Language structure
+> ### Language structure
 ```
 fn main() {
     //your code
 }
 ```
-### println! Syntax
+> ### println! Syntax
  ```
     println!();                         //prints new line
     println!("Hello world!");           //prints Hello world!
